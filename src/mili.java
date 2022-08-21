@@ -1,14 +1,14 @@
-public class mili {
+public class Mili {
 
         public static void main(String[] args) {
 
 
-            int cena = 10;
+            int price = 10;
             int x = 20;
-            int mili = cena / x;
-            if (cena > x) {
+            int miles = price / x;
+            if (price > x) {
                 System.out.print("Начислено ");
-                System.out.print(mili);
+                System.out.print(miles);
                 System.out.println(" миль(и)");
             } else System.out.println("Мили не начислены");
 
