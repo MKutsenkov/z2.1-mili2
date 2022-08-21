@@ -3,10 +3,10 @@ public class Mili {
         public static void main(String[] args) {
 
 
-            int price = 10;
-            int x = 20;
-            int miles = price / x;
-            if (price > x) {
+            int price = 10;                // цена
+            int ratio = 20;                // коэффициент
+            int miles = price / ratio;     // формула
+            if (price > ratio) {
                 System.out.print("Начислено ");
                 System.out.print(miles);
                 System.out.println(" миль(и)");
